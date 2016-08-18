@@ -7,7 +7,7 @@
   border-top-right-radius: 15px;
 	height: 50px;
   width: 20%;
-	background-color: #00ff00;
+	background-color: #9999ff;
   text-align: center;
   margin-top: 0px;
 	margin-left: 40%;
@@ -62,7 +62,7 @@ h2{margin-bottom: 0px;
 	text-align: center;
 }
 
-a {
+a:hover{
 	text-decoration: none;
 	color: #3D59AB;
 }
@@ -72,3 +72,19 @@ span {
 	font-size: 18px;
 	color: #ffffff;
 }
+.sidebar{width:20%;
+	float: right;
+	background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqS4a5qdRmBlOqbQYm9rlgrC3DVh1UxrRLWqLenivlXgHNiU2n);
+	text-decoration: underline;
+	font-weight: bold;height: 100%;
+}
+
+#header{clear: both;
+	position: relative;
+	top: 2px;
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+	height: 50px;
+	background-color: #4d0039;
+}
+.sidebar a{}
