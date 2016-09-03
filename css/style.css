@@ -1,90 +1,134 @@
-#button{clear: both;
-	position: relative;
-	bottom: -20px;
-	border-bottom-left-radius: 15px;
-	border-bottom-right-radius: 15px;
-  border-top-left-radius: 15px;
-  border-top-right-radius: 15px;
-	height: 50px;
-  width: 20%;
-	background-color: #9999ff;
-  text-align: center;
-  margin-top: 0px;
-	margin-left: 40%;
-
-}
-
-.flashy {font-size: 20px;
-  font-weight: bold;
-  position: relative;
-	color: #ff0000;
-	margin-top: 45px;
-	}
-h1{margin-bottom: -15px;text-align: center; text-decoration: underline;
-	font-size: 100px;
-	margin-top: 0px;
-	color: #cc0066;
-	text-decoration-style: wavy;
-	font-style: italic;
-	font-family: serif;
-}
-body{background-image: url(http://thecupcakeshoppe.ca/images/intro.gif);
-	background-size: contain;}
-.important{margin-left: 45%;
-	margin-bottom: 0px;}
-
-.intro{background-color: #ffe6f9;}
-
-h5{margin-top: 0px;
-	color: #e600ac;}
-h2{margin-bottom: 0px;
-	color: #cc0066;}
-#footer{
-		clear: both;
-		position: relative;
-		bottom: -20px;
-		border-bottom-left-radius: 15px;
-		border-bottom-right-radius: 15px;
-		height: 150px;
-		background-color: #4d0039;
-	}
-.information{float: right; color: #ffff33;}
-
-.working_hours{float: left; color: #ffffcc;}
-
-.facebook{
-	border-radius: 5px;
-	border: 2px solid #6495ED;
-	background-color: #BCD2EE;
-	height: 50px;
-	width: 120px;
-	margin: auto;
+/********index*****/
+.header-img{
 	text-align: center;
 }
+.backimg{
+	width: 100%;
+	background-image: url("../img/cupcake-with-candle.jpg");
+	background-size: contain;
+	z-index: -1;
+	/*height: 550px*/
+}
+.overlay{
+	background-color: rgba(0,0,0,0.6);
+	z-index: 0;
+	margin: 0px 0px 0px 0px;
+}
+.sub-header h2{
+	font-family: "Ewert";
+	color: #f24ab8;
+	font-size: 40px;
+	text-align: center;
+	margin-bottom: 0px;
+}.sub-header h5{
+	font-family: "Tangerine";
+	color: #f24ab8;
+	font-size: 35px;
+	text-align: center;
+	margin-top: 0px;
+}
+.intro{
+	color: #fff;
+	font-family: "Dancing Script";
+	font-size: 30px;
+}
+/*****menu/gallery****/
+.image
+{
+	width:24%;
+	float:left;
+}
+.image p{
+	text-align: center;
+	color: #fff;
+}
+.image img{
 
-a:hover{
-	text-decoration: none;
-	color: #3D59AB;
+	float: left;
+	width: 300px;
+	height: 280px;
+	border:5px solid #fff;
+	margin:15px 0px 15px 10px;
+}
+.image img:hover{
+	background-color: blue;
+	opacity: 0.5;
+}
+.Orders{
+	border-top: 2px solid #fff;
+	margin: 20px 0px 20px 0px;
+}
+.Orders button{
+	width: 20%;
+	margin: 20px 0px 20px 30px;
+	border-radius: 20px;
+	background-color: #f24ab8;
+
+}
+/***footer***/
+.info{
+	width: 30%;
+	float: left;
+}
+.footer{
+	background-color: #fdb2e7;
+	text-align: center;
+}
+.buttons button{
+	margin-top: 40px;
+}
+/***********contacts**********/
+.formdiv{
+  color:#FFF;
+  font-weight: bold;
+  font-size: 16px;
+	text-align: center;
+}
+.formdiv form span{
+	font-family: "Tangerine";
+	color: #f24ab8;
+	font-size: 40px;
 }
 
-span {
-	font-weight: bold;
-	font-size: 18px;
-	color: #ffffff;
-}
-.sidebar{width:20%;
-	float: right;
-	background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqS4a5qdRmBlOqbQYm9rlgrC3DVh1UxrRLWqLenivlXgHNiU2n);
-	text-decoration: underline;
-	font-weight: bold;height: 100%;
+.a_row
+{
+  padding: 20px;
+  padding-left: 5px;
 }
 
-#header{clear: both;
-	position: relative;
-	top: 2px;
-	border-top-left-radius: 15px;
-	border-top-right-radius: 15px;
-	height: 50px;
-	background-color: #4d0039;
+.a_row label
+{
+  padding-left: 30px;
 }
-.sidebar a{}
+
+.a_row input
+{
+  width:40%;
+  padding:15px;
+  border-radius: 15px;
+  border:none;
+	color: #000;
+}
+
+.a_row textarea
+{
+  width:40%;
+  margin-left: 40px;
+  border-radius: 15px;
+  border:none;
+	color: #000;
+}
+
+.a_row button
+{
+  background-color:#f24ab8;
+  color:white;
+  font-size: 18px;
+  border:none;
+  border-radius: 25px;
+  padding: 10px;
+}
+.class{
+	float: left;
+	width: 50%;
+}
